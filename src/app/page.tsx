@@ -20,7 +20,7 @@ http://host:port`;
           <div className="grid w-full gap-2">
             <Label htmlFor="addresses">Your wallet addresses</Label>
             <Textarea
-              className="resize-none h-[200px]"
+              className="resize-none h-[200px] font-[family-name:var(--font-geist-mono)]"
               id="addresses"
               placeholder={addressesPlaceholder}
             />
@@ -30,7 +30,7 @@ http://host:port`;
               Your proxies <i>(if any)</i>
             </Label>
             <Textarea
-              className="resize-none h-[200px]"
+              className="resize-none h-[200px] font-[family-name:var(--font-geist-mono)]"
               id="proxies"
               placeholder={proxyPlaceholder}
             />
